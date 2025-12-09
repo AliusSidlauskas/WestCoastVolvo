@@ -1,0 +1,24 @@
+.headerBase{
+    background-color: #003580;
+    color: white;
+    
+}
+
+.headerBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    font-weight: bold;
+    font-size: large;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.burger{
+    display: none;
+}
