@@ -3,7 +3,7 @@ import { links } from "../data/links"
 
 export default function Home() {
   return (
-    <main className="bg-gray-100 min-h-screen">
+    <main >
       <Header  links={links} />
       <section className="flex flex-col items-center justify-center p-8">
         <h2 className="text-4xl font-bold text-[#003580] mb-4 text-center">

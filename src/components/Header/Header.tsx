@@ -30,8 +30,17 @@ const Header = ({ links = [] }: HeaderProps) => {
           ))}
         </nav>
 
-        <button onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}>
-           <Image className={styles.burger} src="/hamburger-sidebar.svg" alt="burger" fill />
+        <button
+          className={styles.burgerButton}
+          onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
+        >
+          <Image
+            className={styles.burger}
+            src="/hamburger-sidebar.svg"
+            alt="burger"
+            width={30}
+            height={30}
+          />
         </button>
       </div>
 
