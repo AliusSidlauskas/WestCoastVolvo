@@ -20,7 +20,9 @@ const Header = ({ links = [] }: HeaderProps) => {
   return (
     <header className={styles.headerBase}>
       <div className={styles.headerBox}>
-        <h1>WestCoastVolvo</h1>
+        <h1>
+          <Link href="/">WestCoastVolvo</Link>
+        </h1>
 
         <nav className={styles.nav}>
           {links.map((link) => (
